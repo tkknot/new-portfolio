@@ -4,9 +4,7 @@
     <v-container class="mt-12">
       <v-row>
         <v-col cols="6">
-          <div id="photo-box" class="rounded-xl">
-            <v-img width="100%" height="100%" src=""></v-img>
-          </div>
+            <v-img src="/img/me.jpeg"  id="photo-box" class="rounded-xl mx-auto"></v-img>
         </v-col>
         <v-col cols="6">
           <p class="text-h6">現在21歳、読書が好きだということをきっかけに、<br>
@@ -23,7 +21,7 @@
 
 <style lang="scss">
   #photo-box {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    height: 90%;
   }
 </style>

@@ -2,7 +2,7 @@
   <div>
   <v-app-bar app height="500" src="/img/home.jpg" absolute>
   <v-container class="mt-auto">
-  <p id="title" class="text-right">Hello New Era!!</p>
+  <p id="title" class="text-right">TK's Portfolio</p>
     <v-row class="m-0">
       <v-col v-for="(e, i) in elements" :key="i" cols="3" class="text-center" id="menu">
         <a class="d-block" id="anker">
