@@ -1,6 +1,6 @@
 <template>
   <div class="my-16">
-    <h1 class="text-center">Portfolio</h1>
+    <h1 class="text-center" id="d">Portfolio</h1>
     <v-container class="mt-12">
       <v-carousel hide-delimiters>
         <v-carousel-item
@@ -48,7 +48,7 @@ export default {
           color: "pink lighten-2"
         },
         {
-          src: "/img/workout.jpg",
+          src: "/img/workout.jpeg",
           link: "https://self-train.com/",
           title: "Carories App",
           color: "yellow lighten-2"

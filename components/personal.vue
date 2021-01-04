@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16">
-    <h1 class="text-center">Personal Skill</h1>
+    <h1 class="text-center" id="c">Personal Skill</h1>
     <v-container class="mt-12">
       <v-row>
         <v-col cols="3" class="mx-auto" v-for="(item, i) in items" :key="i">

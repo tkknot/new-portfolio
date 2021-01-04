@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar app height="500" src="/img/home.jpg" absolute>
+    <v-app-bar app height="500" src="/img/home.jpeg" absolute>
       <v-container class="mt-auto">
         <p id="title" class="text-right">TK's Portfolio</p>
         <v-row class="m-0">
@@ -11,8 +11,7 @@
             class="text-center"
             id="menu"
           >
-            <a class="d-block" id="anker">
-              <!-- <a class="white--text" v-for="(link, i) in links" :href="link[i]"> -->
+            <a class="d-block" id="anker" :href="e.link">
               <span>
                 {{ e.sentence }}
               </span>
@@ -39,6 +38,7 @@
   height: 100%;
   color: white;
   font-size: 1.2rem;
+  text-decoration: none;
 }
 
 #menu {
@@ -57,17 +57,11 @@ export default {
   data() {
     return {
       elements: [
-        { sentence: "Profile" },
-        { sentence: "Programming Skill" },
-        { sentence: "Personal Skill" },
-        { sentence: "PortFolio" }
+        { sentence: "Profile", link: "#a" },
+        { sentence: "Programming Skill", link: "#b" },
+        { sentence: "Personal Skill", link: "#c" },
+        { sentence: "PortFolio", link: "#d" }
       ]
-      // links: [
-      //   {link: '#a'},
-      //   {link: '#b'},
-      //   {link: '#c'},
-      //   {link: '#d'},
-      // ]
     };
   }
 };

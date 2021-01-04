@@ -1,6 +1,6 @@
 <template>
   <div class="mt-14">
-    <h1 class="text-center">Profile</h1>
+    <h1 class="text-center" id="a">Profile</h1>
     <v-container class="mt-12">
       <v-row>
         <v-col cols="6">
