@@ -11,20 +11,20 @@
           ></v-img>
         </v-col>
         <v-col cols="6">
-          <p class="text-h6">
+          <p class="text-h6 jp">
             現在21歳、読書が好きだということをきっかけに、<br />
             世田谷の大学で文学を専攻している文系大学生です。
           </p>
-          <p class="text-h6">
+          <p class="text-h6 jp">
             筋トレとライフハックが好きで、<br />自己管理能力には定評があります。
           </p>
-          <p class="text-h6">
+          <p class="text-h6 jp">
             学生時代は2つの団体運営と6つの資格取得など、<br />複数活動に注力していました。
           </p>
-          <p class="text-h6">
+          <p class="text-h6 jp">
             現在、フロントエンドの技術をメインに、<br />プログラミングを独学で勉強しています。
           </p>
-          <p class="text-h6">
+          <p class="text-h6 jp">
             また、自分の知識や熱量で人の役に立ちたいという思いから、エンジニア職を見ています。
           </p>
         </v-col>
