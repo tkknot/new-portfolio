@@ -11,7 +11,7 @@
             class="text-center"
             id="menu"
           >
-            <a class="d-block" id="anker" :href="e.link">
+            <a class="d-block text-h6" id="anker" :href="e.link">
               <span>
                 {{ e.sentence }}
               </span>
@@ -48,6 +48,18 @@
     & > a {
       color: black;
     }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #anker {
+    font-size: 1rem !important;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  #anker {
+    font-size: 0.8rem !important;
   }
 }
 </style>

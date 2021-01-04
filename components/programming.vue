@@ -3,38 +3,40 @@
     <h1 class="text-center" id="b">Programming</h1>
     <v-container class="mt-12">
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" xl="6" lg="6" md="6">
           <v-col v-for="(s, i) in skillSet" :key="i" cols="12">
             <v-container>
               <v-row class="red lighten-5 ">
-                <v-col cols="3" class="red lighten-2 text-center white--text">{{
-                  s.language
-                }}</v-col>
+                <v-col cols="3" class="red lighten-2 text-center white--text">
+                  <span>
+                    {{ s.language }}
+                  </span>
+                </v-col>
                 <v-col cols="7" id="gage"
                   ><p class="red darken-1 gage-stick" :id="s.language"></p
                 ></v-col>
-                <v-col cols="2" class="text-center grey--text">{{
-                  s.level + "%"
-                }}</v-col>
+                <v-col cols="2" class="text-center grey--text">
+                  <span>
+                    {{ s.level + "%" }}
+                  </span>
+                </v-col>
               </v-row>
             </v-container>
           </v-col>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" xl="6" lg="6" md="6">
           <v-col v-for="(f, i) in frameSet" :key="i" cols="12">
             <v-container>
               <v-row class="blue lighten-5 ">
-                <v-col
-                  cols="3"
-                  class="blue lighten-2 text-center white--text"
-                  >{{ f.frameName }}</v-col
+                <v-col cols="3" class="blue lighten-2 text-center white--text"
+                  ><span>{{ f.frameName }}</span></v-col
                 >
                 <v-col cols="7" id="gage"
                   ><p class="blue darken-1 gage-stick" :id="f.frameName"></p
                 ></v-col>
-                <v-col cols="2" class="text-center grey--text">{{
-                  f.level + "%"
-                }}</v-col>
+                <v-col cols="2" class="text-center grey--text"
+                  ><span>{{ f.level + "%" }}</span></v-col
+                >
               </v-row>
             </v-container>
           </v-col>
