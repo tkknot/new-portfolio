@@ -19,7 +19,10 @@ export default {
         href:
           "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif+JP:wght@300;400;500;700&family=Noto+Serif:wght@400;700&display=swap"
       }
-    ]
+    ],
+    script: {
+      src: "https://code.jquery.com/jquery-3.5.1.js"
+    }
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
