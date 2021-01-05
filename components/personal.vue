@@ -68,6 +68,8 @@ export default {
           return 320;
         case "sm":
           return 380;
+        case "xl":
+          return 600;
         default:
           return 480;
           break;
