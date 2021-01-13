@@ -1,8 +1,10 @@
 <template>
   <div class="mt-16">
     <h1 class="text-center" id="b">Programming</h1>
+
     <v-container class="mt-12">
       <v-row>
+
         <v-col cols="12" xl="6" lg="6" md="6">
           <v-col v-for="(s, i) in skillSet" :key="i" cols="12">
             <v-container>
@@ -24,6 +26,7 @@
             </v-container>
           </v-col>
         </v-col>
+
         <v-col cols="12" xl="6" lg="6" md="6">
           <v-col v-for="(f, i) in frameSet" :key="i" cols="12">
             <v-container>
@@ -41,48 +44,12 @@
             </v-container>
           </v-col>
         </v-col>
+        
       </v-row>
     </v-container>
+
   </div>
 </template>
-
-<style lang="scss" scoped>
-#gage {
-  padding: 0;
-}
-
-.gage-stick {
-  height: 100%;
-  margin: 0;
-}
-
-#Responsive,
-#Bootstrap {
-  width: 80%;
-}
-#JavaScript,
-#Vuetify {
-  width: 70%;
-}
-#HTML,
-#CSS,
-#Vue,
-#Nuxt {
-  width: 60%;
-}
-#SCSS {
-  width: 30%;
-}
-#Python {
-  width: 10%;
-}
-#Django {
-  width: 20%;
-}
-#JQuery {
-  width: 50%;
-}
-</style>
 
 <script>
 export default {
@@ -144,3 +111,41 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+#gage {
+  padding: 0;
+}
+
+.gage-stick {
+  height: 100%;
+  margin: 0;
+}
+
+#Responsive,
+#Bootstrap {
+  width: 80%;
+}
+#JavaScript,
+#Vuetify {
+  width: 70%;
+}
+#HTML,
+#CSS,
+#Vue,
+#Nuxt {
+  width: 60%;
+}
+#SCSS {
+  width: 30%;
+}
+#Python {
+  width: 10%;
+}
+#Django {
+  width: 20%;
+}
+#JQuery {
+  width: 50%;
+}
+</style>

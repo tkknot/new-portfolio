@@ -23,6 +23,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      elements: [
+        { sentence: "Profile", link: "#a" },
+        { sentence: "Programming Skill", link: "#b" },
+        { sentence: "Personal Skill", link: "#c" },
+        { sentence: "PortFolio", link: "#d" }
+      ]
+    };
+  }
+};
+</script>
+
 <style lang="scss" scoped>
 #title {
   color: white;
@@ -63,18 +78,3 @@
   }
 }
 </style>
-
-<script>
-export default {
-  data() {
-    return {
-      elements: [
-        { sentence: "Profile", link: "#a" },
-        { sentence: "Programming Skill", link: "#b" },
-        { sentence: "Personal Skill", link: "#c" },
-        { sentence: "PortFolio", link: "#d" }
-      ]
-    };
-  }
-};
-</script>

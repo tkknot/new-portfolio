@@ -1,6 +1,7 @@
 <template>
   <div class="mt-14">
     <h1 class="text-center" id="a">Profile</h1>
+
     <v-container class="mt-12">
       <v-row>
         <v-col cols="12" xl="6" lg="6" md="6">
@@ -30,6 +31,7 @@
         </v-col>
       </v-row>
     </v-container>
+    
   </div>
 </template>
 

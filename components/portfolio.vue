@@ -1,6 +1,7 @@
 <template>
   <div class="my-16">
     <h1 class="text-center" id="d">Portfolio</h1>
+
     <v-container class="mt-12">
       <v-carousel hide-delimiters>
         <v-carousel-item
@@ -20,21 +21,9 @@
         </v-carousel-item>
       </v-carousel>
     </v-container>
+    
   </div>
 </template>
-
-<style lang="scss" scoped>
-#link {
-  text-decoration: none;
-}
-
-#link-box {
-  &:hover {
-    cursor: pointer;
-    background: rgba(134, 227, 255, 0.705);
-  }
-}
-</style>
 
 <script>
 export default {
@@ -58,3 +47,16 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+#link {
+  text-decoration: none;
+}
+
+#link-box {
+  &:hover {
+    cursor: pointer;
+    background: rgba(134, 227, 255, 0.705);
+  }
+}
+</style>

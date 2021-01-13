@@ -1,6 +1,7 @@
 <template>
   <div class="mt-16">
     <h1 class="text-center" id="c">Personal Skill</h1>
+
     <v-container class="mt-12">
       <v-row>
         <v-col
@@ -23,19 +24,9 @@
         </v-col>
       </v-row>
     </v-container>
+    
   </div>
 </template>
-
-<style lang="scss" scoped>
-@media screen and (max-width: 480px) {
-  .jp {
-    font-size: 0.8rem !important;
-  }
-  #item-title {
-    font-size: 1rem !important;
-  }
-}
-</style>
 
 <script>
 export default {
@@ -78,3 +69,14 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+@media screen and (max-width: 480px) {
+  .jp {
+    font-size: 0.8rem !important;
+  }
+  #item-title {
+    font-size: 1rem !important;
+  }
+}
+</style>
